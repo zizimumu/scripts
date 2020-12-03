@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+# here is the nandflash parameters need to change
 ROOTFS_DIR=./sam9x60_buildroot_mini
 PAGE_SIZE=4096
 SUB_PAGE_SIZE=4096
