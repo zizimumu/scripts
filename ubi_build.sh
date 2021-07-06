@@ -2,14 +2,15 @@
 
 
 # here is the nandflash parameters need to change
+# rootfs directory
 ROOTFS_DIR=./sam9x60_buildroot_mini
 PAGE_SIZE=4096
 SUB_PAGE_SIZE=4096
-#total physic blocks, used to caculate max bad block
+# total physic blocks, used to caculate max bad block
 PHYSIC_BLK_NUM=2048
-# rootfs size used by UBI
+# block count, used by UBI
 ROOTFS_BLK_NUM=480
-# unit is KB
+# physic block size, unit is KB
 PHYSIC_ERASE_BLK_SZ=256
 
 
